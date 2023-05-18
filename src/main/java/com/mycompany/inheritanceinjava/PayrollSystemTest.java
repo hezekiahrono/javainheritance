@@ -55,7 +55,15 @@ public class PayrollSystemTest {
                System.out.printf("new base salary with 10%% increase is: $%,.2f\n",
                        employee.getBaseSalary());
              }
+             
+             System.out.printf("earned $%,.2f\n\n", 
+                     currentEmployee.earnings());
          }
+         
+         for(int j = 0; j<employees.length; j++)
+             
+             System.out.printf("Employee %d is a %s\n", j,
+                     employees[j].getClass().getName());
           
           
           
