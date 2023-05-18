@@ -18,12 +18,12 @@ public class CommissionEmployeeTest {
         System.out.println("Employee information obtained by get methods: \n" );
         System.out.printf("%s %s\n", "First name is", employee.getFirstName());
         System.out.printf("%s %s\n", "Last name is", employee.getLastName());
-        System.out.printf("%s %s\n", "Security number is", employee.getSecurityNumber());
-        System.out.printf("%s %.2f\n", "Gross sales is", employee.getGrossSale());
-        System.out.printf("%s %.2f\n", "Gross sales is", employee.getComissionRate());
+//        System.out.printf("%s %s\n", "Security number is", employee.getSecurityNumber());
+//        System.out.printf("%s %.2f\n", "Gross sales is", employee.getGrossSale());
+//        System.out.printf("%s %.2f\n", "Gross sales is", employee.getComissionRate());
         
-        employee.setComissionRate(0.2);
-        employee.setGrossSale(500.0);
+        employee.setCommissionRate(0.2);
+        employee.setGrossSales(500.0);
         
         System.out.printf("\n%s:\n\n%s\n",
 "Updated employee information obtained by toString", employee);

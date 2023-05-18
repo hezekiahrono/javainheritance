@@ -20,10 +20,10 @@ new BasePlusCommissionEmployee(
     System.out.printf("%s %s\n", "First name is: ",
             employee.getFirstName());
     System.out.printf("%s %s\n", "Lat name is: ", employee.getFirstName());
-    System.out.printf("%s %s\n", "Social security number is: ",
-            employee.getSecurityNumber());
-    System.out.printf("%s %.2f\n", "Commision rate: ", employee.getComissionRate());
-    System.out.printf("%s %.2f\n","Gross sales: ", employee.getGrossSale());
+//    System.out.printf("%s %s\n", "Social security number is: ",
+//            employee.getSecurityNumber());
+//    System.out.printf("%s %.2f\n", "Commision rate: ", employee.getComissionRate());
+//    System.out.printf("%s %.2f\n","Gross sales: ", employee.getGrossSale());
     System.out.printf("%s %.2f\n", "Base salary: ", employee.getBaseSalary());
     
     

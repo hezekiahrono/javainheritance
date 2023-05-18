@@ -46,13 +46,13 @@ return baseSalary;
  public String toString()
  {
  return String.format(
- "%s %s\n%s: %.2f", "base-salaried",
+ "%s %s; %s: $%,.2f",
 //         //"base-salaried commission employee", firstName, lastName,
 //         "base-salaried commission employee", getFirstName(), getLastName(),
 //         //"social security number", socialSecurityNumber,
 //         "social security number", getSecurityNumber(),
 //         //"gross sales", grossSale, "commission rate", comissionRate,
 //         "gross sales", getGrossSale(), "commission rate", getComissionRate(),
-         super.toString(),"base salary", getBaseSalary());
+         "base-salaried",super.toString(),"base salary", getBaseSalary());
  } //
 }
