@@ -36,10 +36,12 @@ return baseSalary;
  
  // calculate earnings
  @Override
- public double earnings()
- {
-// return baseSalary + ( grossSale * comissionRate );
-    return getBaseSalary() + super.earnings();
+public double getPaymentAmount(){
+//// public double earnings()
+//// {
+ //return baseSalary + ( grossSale * comissionRate );
+ //return getBaseSalary() + super.earnings();
+ return getBaseSalary() + super.getPaymentAmount();
  } 
  
  @Override // indicates that this method overrides a superclass method

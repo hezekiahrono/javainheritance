@@ -46,13 +46,15 @@ public class HourlyEmployee extends Employee{
     }
     
     @Override
-    public double earnings(){
+    public double getPaymentAmount(){
+   // public double earnings(){
         if(getHours()<=40)
             return getWage()*getHours();
         else
             return 40 * getWage() +(getHours()-40)*getWage()*1.5;
     }
     
+    @Override
     public String toString(){
         return String.format("hourly employee: %s\n%s: $%,.2f; %s: %,.2f",
                 super.toString(),"Hourly Wage",getWage(),

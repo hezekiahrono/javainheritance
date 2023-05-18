@@ -8,7 +8,7 @@ package com.mycompany.inheritanceinjava;
  *
  * @author HP
  */
-public abstract class Employee {
+public abstract class Employee implements Payable {
     private String firstName;
     private String lastName;
     private String socialSecurityNumber;
@@ -54,6 +54,6 @@ public abstract class Employee {
     }
     
     
-    public abstract double earnings();
+//    public abstract double earnings();
     
 }
